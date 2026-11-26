@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    background-image: url(./17285120_2160_3840_60fps.mp4);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+}
+
+video,
+audio {
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,31 @@
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+legend {
+    background-color: rgb(44, 44, 241);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: column;
+    font-weight: 700;
+    gap: 2rem;
+}

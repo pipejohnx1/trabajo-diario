@@ -1,0 +1,23 @@
+ul li {
+    list-style-type: none;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 25px;
+}
+
+.procesador li {
+    background-image: url(cpu.jpg);
+}
+
+.ram li {
+    background-image: url(ram.jpg);
+}
+
+.almacenamiento li {
+    background-image: url(mrbeast.jpg);
+}
+
+.grafica li {
+    background-image: url(gpu.jpg);
+}
